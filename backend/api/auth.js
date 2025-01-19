@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 
 const users = [
-  { username: 'admin', password: 'admin123', role: 'admin' },
-  { username: 'user', password: 'user123', role: 'user' }
+  { username: 'admin', password: 'admin', role: 'admin' },
+  { username: 'user', password: 'user', role: 'user' }
 ];
 
 // Auth login route
