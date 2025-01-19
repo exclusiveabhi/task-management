@@ -1,6 +1,6 @@
 export const getTasks = async (user) => {
   try {
-    const response = await fetch('http://localhost:5000/api/tasks', {
+    const response = await fetch('https://task-management-assignment-khng.onrender.com/api/tasks', {
       headers: { username: user.username, role: user.role },
     });
     if (!response.ok) {
@@ -18,7 +18,7 @@ export const getTasks = async (user) => {
   
   export const approveTask = async (taskId, user) => {
   try {
-    const response = await fetch(`http://localhost:5000/api/tasks/${taskId}/approve`, {
+    const response = await fetch(`https://task-management-assignment-khng.onrender.com/api/tasks/${taskId}/approve`, {
       method: 'PUT',
       headers: { username: user.username, role: user.role },
     });
