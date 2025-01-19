@@ -31,7 +31,7 @@ const Login = () => {
     <div style={styles.loginContainer}>
       <div style={styles.loginForm}>
         <h2>Login</h2>
-        {error && <p>{error}</p>}
+        {error && <span style={styles.span}>{error}</span>}
         <input
           type="text"
           placeholder="Username"
@@ -47,6 +47,8 @@ const Login = () => {
           style={styles.input}
         />
         <button onClick={handleLogin} style={styles.button}>Login</button>
+        <p>Username:- admin Password:- admin  <span style={styles.span}>role: admin</span></p>
+        <p>Username:- user Password:- user <span style={styles.span}>for role: user</span></p>
       </div>
     </div>
   );
@@ -61,6 +63,9 @@ const styles = {
     padding: '20px', // Add padding to ensure spacing on smaller screens
     marginTop: '70px', // Add margin to move the card down from the top
   },
+  span: {
+    color: 'red',
+  },
   loginForm: {
     background: '#fff',
     padding: '40px', // Increase padding for equal spacing
@@ -71,7 +76,7 @@ const styles = {
   },
   input: {
     display: 'block',
-    width: '95%', // Make input fields full width
+    width: '100%', // Make input fields full width
     marginBottom: '20px', // Increase margin for better spacing
     padding: '10px', // Adjust padding for input fields
     border: '1px solid #ccc',
