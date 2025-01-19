@@ -47,7 +47,7 @@ const styles = {
   title: {
     margin: 0,
     fontSize: '24px',
-    color: '#000', // Set text color to black
+    color: '#000', 
   },
   userSection: {
     display: 'flex',
@@ -56,12 +56,12 @@ const styles = {
   welcome: {
     marginRight: '10px',
     fontSize: '16px',
-    color: '#000', // Set text color to black
+    color: '#000', 
   },
   logoutButton: {
     padding: '5px 15px',
     backgroundColor: '#007bff',
-    color: '#fff', // Set text color to white
+    color: '#fff',
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',

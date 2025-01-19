@@ -41,7 +41,7 @@ const TaskList = ({ tasks, setTasks }) => {
 const styles = {
   taskList: {
     padding: '20px',
-    marginTop: '20px', // Adjust margin to ensure proper spacing
+    marginTop: '20px', 
   },
   taskCards: {
     display: 'flex',
@@ -54,10 +54,10 @@ const styles = {
     padding: '20px',
     borderRadius: '8px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-    flex: '1 1 calc(33.333% - 20px)', // Adjust the width to fit 2-3 cards per row
+    flex: '1 1 calc(33.333% - 20px)', 
     boxSizing: 'border-box',
-    minWidth: '300px', // Ensure a minimum width for smaller screens
-    maxWidth: '400px', // Ensure a maximum width for larger screens
+    minWidth: '300px', 
+    maxWidth: '400px', 
   },
   button: {
     padding: '10px',

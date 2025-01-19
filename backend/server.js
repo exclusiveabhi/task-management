@@ -4,6 +4,7 @@ const taskRoutes = require('./api/task');
 const authRoutes = require('./api/auth');
 
 const app = express();
+
 const PORT = 5000;
 
 app.use(cors());

@@ -22,7 +22,7 @@ const App = () => {
         return;
       }
       const data = await response.json();
-      setTasks((prevTasks) => [...prevTasks, data]); // Update the task list state
+      setTasks((prevTasks) => [...prevTasks, data]); 
     } catch (err) {
       console.error('Error creating task:', err);
     }

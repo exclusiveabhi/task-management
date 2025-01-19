@@ -58,33 +58,33 @@ const styles = {
   loginContainer: {
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'flex-start', // Align items to the start (top) of the container
+    alignItems: 'flex-start', 
     height: '100vh',
-    padding: '20px', // Add padding to ensure spacing on smaller screens
-    marginTop: '70px', // Add margin to move the card down from the top
+    padding: '20px', 
+    marginTop: '70px',
   },
   span: {
     color: 'red',
   },
   loginForm: {
     background: '#fff',
-    padding: '40px', // Increase padding for equal spacing
+    padding: '40px',
     borderRadius: '8px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
     width: '100%',
-    maxWidth: '400px', // Ensure the form doesn't get too wide
+    maxWidth: '400px',
   },
   input: {
     display: 'block',
-    width: '100%', // Make input fields full width
-    marginBottom: '20px', // Increase margin for better spacing
-    padding: '10px', // Adjust padding for input fields
+    width: '100%',
+    marginBottom: '20px',
+    padding: '10px', 
     border: '1px solid #ccc',
     borderRadius: '4px',
   },
   button: {
     display: 'block',
-    width: '100%', // Make button full width
+    width: '100%', 
     padding: '10px',
     background: '#007bff',
     color: '#fff',
