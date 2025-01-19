@@ -17,17 +17,9 @@ export const getTasks = async (user) => {
 };
   
   export const approveTask = async (taskId, user) => {
-  try {
-    const response = await fetch(`https://task-management-assignment-khng.onrender.com/api/tasks/${taskId}/approve`, {
+    await fetch(`https://task-management-assignment-khng.onrender.com/api/tasks/${taskId}/approve`, {
       method: 'PUT',
       headers: { username: user.username, role: user.role },
     });
-    if (!response.ok) {
-      const errorData = await response.json();
-      console.error('Error approving task:', errorData.message);
-    }
-  } catch (err) {
-    console.error('Error approving task:', err);
-  }
-};
+  };
   
