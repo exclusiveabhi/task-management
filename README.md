@@ -116,7 +116,7 @@ Once both the frontend and backend are running, open the application in your bro
 
 ### **Tasks**
 
-- **GET** `/api/tasks`: Retrieves all tasks.
+- **GET** `/api/tasks`: Fetch all tasks.
 - **POST** `/api/tasks`: Creates a new task.
 
   **Request Body:**
