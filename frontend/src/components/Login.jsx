@@ -50,7 +50,7 @@ const Login = () => {
         <p>Username:- admin Password:- admin  <span style={styles.span}>role: admin</span></p>
         <p>Username:- user Password:- user <span style={styles.span}>for role: user</span></p>
         
-        <p>Note:- Please wait 5-7 sec after click on login button</p>
+        <p>Note:- Please wait 10-15 sec after click on login button</p>
       </div>
     </div>
   );
